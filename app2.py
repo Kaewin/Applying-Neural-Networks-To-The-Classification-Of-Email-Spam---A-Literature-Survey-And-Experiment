@@ -30,16 +30,16 @@ def load_model():
 def get_raw_text():
     """Prompts the user to input the copied raw text of an email."""
 
-    email_text = ""
-
     st.write("Please copy and paste the raw text of an email:")
 
     line = st.text_input("")
 
-    email_text += line + "\n"
+    if line.strip():  # Check if the input is not empty or only contains whitespace
+        email_text = line + "\n"
+    else:
+        email_text = ""
 
     return email_text
-
 
 def get_eml_text(uploaded_file):
     eml_content = uploaded_file.getvalue().decode('utf-8')
@@ -112,21 +112,23 @@ def main():
 
     elif choice == "raw text":
         email_text = get_raw_text()
-        features = extract_features(email_text)
-        # turn the features into a dataframe
-        features_df = pd.DataFrame(features, index=[0])
-        print(features_df)
-        prediction = model.predict(features_df)
-        
-        # if prediction < 5, return "Spam"
-        # if prediction > 5, return "Not Spam"
-        if prediction > 0.5:
-            prediction = "Spam"
-        else:
-            prediction = "Not Spam"
-        
-        st.write("The prediction is:")
-        st.write(prediction)
+
+        if email_text.strip():  # Check if email_text is not empty or only contains whitespace
+            features = extract_features(email_text)
+            # turn the features into a dataframe
+            features_df = pd.DataFrame(features, index=[0])
+            print(features_df)
+            prediction = model.predict(features_df)
+            
+            # if prediction < 5, return "Spam"
+            # if prediction > 5, return "Not Spam"
+            if prediction > 0.5:
+                prediction = "Spam"
+            else:
+                prediction = "Not Spam"
+            
+            st.write("The prediction is:")
+            st.write(prediction)
 
     else:
         pass
