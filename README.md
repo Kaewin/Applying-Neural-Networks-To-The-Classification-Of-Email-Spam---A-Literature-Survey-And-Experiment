@@ -1,4 +1,4 @@
-![meme](https://xkcd.com/1694/)
+![meme](https://imgs.xkcd.com/comics/phishing_license_2x.png)
 
 # Abstract
 
