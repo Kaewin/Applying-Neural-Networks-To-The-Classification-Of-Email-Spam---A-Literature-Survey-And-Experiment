@@ -63,6 +63,8 @@ The Enron dataset is a collection of email messages that were sent and received 
 
 For more information on the Enron corpus see [this paper](https://link.springer.com/chapter/10.1007/978-3-540-30115-8_22) as well as the respective [Wikipedia article](https://en.wikipedia.org/wiki/Enron_Corpus).
 
+## The Combined Dataset:
+
 It is important to note that the author did not use the Enron corpus itself, but the curated dataset created by the authors of the research paper [Spam Filtering With Naive Bayes - Which Naive Bayes?](https://www.researchgate.net/profile/Vangelis-Metsis/publication/221650814_Spam_Filtering_with_Naive_Bayes_-_Which_Naive_Bayes/links/00b4952977a32a9949000000/Spam-Filtering-with-Naive-Bayes-Which-Naive-Bayes.pdf). The Enron dataset itself can be found [here](https://www.cs.cmu.edu/~./enron/).
 
 In the research paper the authors have curated a dataset, combining data from the Enron corpus as well as some of their own. This dataset was combined with the SpamAssassin dataset in order to provide a balanced number of spam and non-spam emails. It can be found [here](https://www2.aueb.gr/users/ion/data/enron-spam/).
