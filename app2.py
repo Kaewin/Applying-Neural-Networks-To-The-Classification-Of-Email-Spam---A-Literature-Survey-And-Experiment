@@ -23,7 +23,7 @@ def load_model():
     tf.keras.layers.Dense(1, activation='sigmoid')
     ])
 
-    model.load_weights('model.h5')
+    model.load_weights('model_weights\model.h5')
 
     return model
 
