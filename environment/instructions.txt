@@ -1,0 +1,16 @@
+These are instructions on setting up the python envrionment.
+
+You will need to do this to run my applet.
+
+
+Run: 
+
+conda env create -f environment.yml
+
+Then: 
+
+conda activate streamlit-spam-classifier
+
+Finally:
+
+streamlit run app2.py
