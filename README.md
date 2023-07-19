@@ -144,38 +144,43 @@ I would like to express my sincere gratitude to Flatiron School for providing me
 
 ## Bibliography: 
 
-“A Plan for Spam.” Accessed June 30, 2023. http://www.paulgraham.com/spam.html.
+<ol>
+<li>“A Plan for Spam.” Accessed June 30, 2023. http://www.paulgraham.com/spam.html.
 
-Anthdm. “How I Used Machine Learning to Classify Emails and Turn Them into Insights (Part 1).” Medium, December 17, 2017. https://towardsdatascience.com/how-i-used-machine-learning-to-classify-emails-and-turn-them-into-insights-efed37c1e66.
+<li>Anthdm. “How I Used Machine Learning to Classify Emails and Turn Them into Insights (Part 1).” Medium, December 17, 2017. https://towardsdatascience.com/how-i-used-machine-learning-to-classify-emails-and-turn-them-into-insights-efed37c1e66.
 
-“How I Used Machine Learning to Classify Emails and Turn Them into Insights (Part 2).” Medium, December 19, 2017. https://towardsdatascience.com/how-i-used-machine-learning-to-classify-emails-and-turn-them-into-insights-part-2-6a8f26477c86.
+<li>“How I Used Machine Learning to Classify Emails and Turn Them into Insights (Part 2).” Medium, December 19, 2017. https://towardsdatascience.com/how-i-used-machine-learning-to-classify-emails-and-turn-them-into-insights-part-2-6a8f26477c86.
 
-baeldung. “Publicly Available Spam Filter Training Sets | Baeldung on Computer Science,” June 23, 2020. https://www.baeldung.com/cs/spam-filter-training-sets.
-“Better Bayesian Filtering.” Accessed July 3, 2023. https://www.paulgraham.com/better.html.
+<li>baeldung. “Publicly Available Spam Filter Training Sets | Baeldung on Computer Science,” June 23, 2020. https://www.baeldung.com/cs/spam-filter-training-sets.
 
-Cranor, Lorrie Faith, and Brian A. LaMacchia. “Spam!” Communications of the ACM 41, no. 8 (August 1, 1998): 74–83. https://doi.org/10.1145/280324.280336.
-Douzi, Samira, Feda A. AlShahwan, Mouad Lemoudden, and Bouabid El Ouahidi. “Hybrid Email Spam Detection Model Using Artificial Intelligence.” International Journal of Machine Learning and Computing 10, no. 2 (February 29, 2020). https://doi.org/10.18178/ijmlc.2020.10.2.937.
+<li>“Better Bayesian Filtering.” Accessed July 3, 2023. https://www.paulgraham.com/better.html.
 
-Gaussian Naive Bayes, Clearly Explained!!!, 2020. https://www.youtube.com/watch?v=H3EjCKtlVog.
+<li>Cranor, Lorrie Faith, and Brian A. LaMacchia. “Spam!” Communications of the ACM 41, no. 8 (August 1, 1998): 74–83. https://doi.org/10.1145/280324.280336.
 
-Guzella, Thiago S., and Walmir M. Caminhas. “A Review of Machine Learning Approaches to Spam Filtering.” Expert Systems with Applications 36, no. 7 (September 1, 2009): 10206–22. https://doi.org/10.1016/j.eswa.2009.02.037.
+<li>Douzi, Samira, Feda A. AlShahwan, Mouad Lemoudden, and Bouabid El Ouahidi. “Hybrid Email Spam Detection Model Using Artificial Intelligence.” International Journal of Machine Learning and Computing 10, no. 2 (February 29, 2020). https://doi.org/10.18178/ijmlc.2020.10.2.937.
 
-“Review: A Review of Machine Learning Approaches to Spam Filtering.” Expert Systems with Applications: An International Journal 36, no. 7 (September 1, 2009): 10206–22. https://doi.org/10.1016/j.eswa.2009.02.037.
+<li>Gaussian Naive Bayes, Clearly Explained!!!, 2020. https://www.youtube.com/watch?v=H3EjCKtlVog.
 
-Heckerman, David, Eric Horvitz, Mehran Sahami, and Susan Dumais. “A Bayesian Approach to Filtering Junk E-Mail,” 1998. https://www.microsoft.com/en-us/research/publication/a-bayesian-approach-to-filtering-junk-e-mail/.
+<li>Guzella, Thiago S., and Walmir M. Caminhas. “A Review of Machine Learning Approaches to Spam Filtering.” Expert Systems with Applications 36, no. 7 (September 1, 2009): 10206–22. https://doi.org/10.1016/j.eswa.2009.02.037.
 
-Klimt, Bryan, and Yiming Yang. “The Enron Corpus: A New Dataset for Email Classification Research.” In Machine Learning: ECML 2004, edited by Jean-François Boulicaut, Floriana Esposito, Fosca Giannotti, and Dino Pedreschi, 3201:217–26. Lecture Notes in Computer Science. Berlin, Heidelberg: Springer Berlin Heidelberg, 2004. https://doi.org/10.1007/978-3-540-30115-8_22.
+<li>“Review: A Review of Machine Learning Approaches to Spam Filtering.” Expert Systems with Applications: An International Journal 36, no. 7 (September 1, 2009): 10206–22. https://doi.org/10.1016/j.eswa.2009.02.037.
 
-Magdy, Safaa, Yasmine Abouelseoud, and Mervat Mikhail. “Efficient Spam and Phishing Emails Filtering Based on Deep Learning.” Computer Networks 206 (April 7, 2022): 108826. https://doi.org/10.1016/j.comnet.2022.108826.
+<li>Heckerman, David, Eric Horvitz, Mehran Sahami, and Susan Dumais. “A Bayesian Approach to Filtering Junk E-Mail,” 1998. https://www.microsoft.com/en-us/research/publication/a-bayesian-approach-to-filtering-junk-e-mail/.
 
-Metsis, Vangelis, Ion Androutsopoulos, and Georgios Paliouras. “Spam Filtering with Naive Bayes - Which Naive Bayes?,” 2006.
-Naive Bayes, Clearly Explained!!!, 2020. https://www.youtube.com/watch?v=O2L2Uv9pdDA.
+<li>Klimt, Bryan, and Yiming Yang. “The Enron Corpus: A New Dataset for Email Classification Research.” In Machine Learning: ECML 2004, edited by Jean-François Boulicaut, Floriana Esposito, Fosca Giannotti, and Dino Pedreschi, 3201:217–26. Lecture Notes in Computer Science. Berlin, Heidelberg: Springer Berlin Heidelberg, 2004. https://doi.org/10.1007/978-3-540-30115-8_22.
 
-Yasin, Adwan, and Abdelmunem Abuhasan. “An Intelligent Classification Model for Phishing Email Detection.” International Journal of Network Security & Its Applications 8, no. 4 (July 30, 2016): 55–72. https://doi.org/10.5121/ijnsa.2016.8405.
+<li>Magdy, Safaa, Yasmine Abouelseoud, and Mervat Mikhail. “Efficient Spam and Phishing Emails Filtering Based on Deep Learning.” Computer Networks 206 (April 7, 2022): 108826. https://doi.org/10.1016/j.comnet.2022.108826.
 
-“The Latest Phishing Statistics (Updated July 2023) | AAG IT Support.” Accessed July 11, 2023. https://aag-it.com/the-latest-phishing-statistics/.
+<li>Metsis, Vangelis, Ion Androutsopoulos, and Georgios Paliouras. “Spam Filtering with Naive Bayes - Which Naive Bayes?,” 2006.
 
-Toolan, Fergus, and Joe Carthy. “Feature Selection for Spam and Phishing Detection.” In 2010 ECrime Researchers Summit, 1–12, 2010. https://doi.org/10.1109/ecrime.2010.5706696.
+<li>Naive Bayes, Clearly Explained!!!, 2020. https://www.youtube.com/watch?v=O2L2Uv9pdDA.
+
+<li>Yasin, Adwan, and Abdelmunem Abuhasan. “An Intelligent Classification Model for Phishing Email Detection.” International Journal of Network Security & Its Applications 8, no. 4 (July 30, 2016): 55–72. https://doi.org/10.5121/ijnsa.2016.8405.
+
+<li>“The Latest Phishing Statistics (Updated July 2023) | AAG IT Support.” Accessed July 11, 2023. https://aag-it.com/the-latest-phishing-statistics/.
+
+<li>Toolan, Fergus, and Joe Carthy. “Feature Selection for Spam and Phishing Detection.” In 2010 ECrime Researchers Summit, 1–12, 2010. https://doi.org/10.1109/ecrime.2010.5706696.
+</ol>
 
 ## Datasets Used:
 
