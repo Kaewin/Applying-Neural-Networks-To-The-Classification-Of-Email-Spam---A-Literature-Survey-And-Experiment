@@ -4,7 +4,9 @@
 
 ## Links:
 
-[Presentation Slides](https://docs.google.com/presentation/d/11_n-Ghqe0-_EscrFUHaHen3UuLhE-letcroQExchjUg/edit?usp=sharing)
+[Presentation PDF](https://github.com/Kaewin/Applying-Neural-Networks-To-The-Classification-Of-Email-Spam---A-Literature-Survey-And-Experiment/blob/main/capstone_slides.pdf)
+
+[Presentation Slides (Google)](https://docs.google.com/presentation/d/11_n-Ghqe0-_EscrFUHaHen3UuLhE-letcroQExchjUg/edit?usp=sharing)
 
 # Abstract
 
