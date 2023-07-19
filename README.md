@@ -15,25 +15,29 @@
 
 ## Background:
 
-Unsolicited Bulk Email (UBE), commonly known as spam, has emerged as a pervasive problem in the digital age. Email as a primary method of communication has become ubiquitous and mandatory in the digital age. The rise of email has led to the rise of spam, owing to the nearly infitesimal cost of sending spam emails, and the effortless ability to reach hundreds of thousands of people with the click of a button.
+# Introduction
 
-Many early adopters of the internet can recall a time where spam was ubiqutous, with newly created email accounts seeming to be inundated with spam messages within days of being created. While the volume of spam has decreased in recent years, it remains a significant problem, with spam emails accounting for a significant portion of overall email traffic. According to [AAG's recent email spam statistics](https://aag-it.com/the-latest-phishing-statistics/), approximately 3.4 billion spam emails are sent daily, with 48% of all emails sent in 2022 being spam.
+## Background:
 
-The impact of spam on both individuals and organizations is far-reaching and multifaceted. Spammers often advertise products or services that may be harmful, illegal, or offensive, exposing recipients to potential health risks or offensive materials. Additionally, the presence of spam emails in users' inboxes leads to decreased productivity as valuable time and attention are diverted to reading and filtering through spam messages, impacting work efficiency and overall output. Furthermore, the influx of spam emails strains mail servers, reducing efficiency and potentially leading to delays or system overloads.
+Spam email, also known as unsolicited bulk email (UBE), has become a widespread issue in the digital era. As email has become a mandatory and widespread communication method, it has also increased spam. This is due to the low cost and ease of sending spam emails, which can reach hundreds of thousands of people with just one click. 
 
-The detection and filtering of spam is a classic problem in machine learning. Traditional rule-based approaches, as well as hand-coded solutions have failed to provide an effective and long-term ability to detect and filter spam. As a result machine learning approaches have been applied with great success. The ability to teach a machine to detect spam "bottom-up", using data and allowing the machine to find the patterns,  instead of "top down" has resulted in a more robust and effective solution to the problem of spam detection.
+Those among the first to use the internet may remember how spam was everywhere, and new email accounts would quickly be flooded with spam messages. While the amount of spam has decreased recently, it remains a big issue, with spam emails making up a significant part of all email traffic. According to [recent email spam statistics from AAG](https://aag-it.com/the-latest-phishing-statistics/), around 3.4 billion spam emails are sent every day, and in 2022, almost half of all emails sent were spam.
 
-## Spam & Ham:
+Spam can have a significant and diverse impact on individuals and organizations. The nature of spam messaging often involves advertising products or services that may be harmful, illegal, or offensive. This can expose recipients to potential health risks or offensive materials. Furthermore, spam emails in users' inboxes can decrease productivity, as they have to spend valuable time filtering through spam messages. This can impact work efficiency and overall output. Additionally, the influx of spam emails can strain mail servers, reducing efficiency and potentially causing delays or system overloads.
 
-The labels "spam" and "ham" in the context of email categorization [originated](https://en.wikipedia.org/wiki/Email_spam) from a humorous reference to a sketch by the British comedy group Monty Python. In this sketch, a group of Vikings repeatedly chants "spam" while a waitress recites a menu item containing spam (a canned meat product). The connection between the repetitive chanting and unwanted emails led to the term "spam" being used to describe unsolicited bulk emails. On the other hand, "ham" is used to refer to legitimate or non-spam emails. The term "ham" is believed to have been derived as the opposite of "spam," creating a playful contrast between the two categories.
+Detecting and filtering spam has been a long-standing issue in machine learning. Conventional rule-based techniques and manually coded solutions have proved ineffective and short-lived in identifying and filtering spam. Consequently, machine learning techniques have been employed with remarkable outcomes. Enabling the machine to learn spam detection "bottom-up" through data analysis and pattern recognition, rather than "top-down" approaches, has resulted in a more reliable and efficient solution to the spam detection problem.
+
+## Ham and Spam:
+
+The terms "spam" and "ham" were originally coined in the context of email categorization. The reference point for this was a sketch by the British comedy group Monty Python where a group of Vikings repeatedly chants "spam." At the same time, a waitress recites a menu item containing spam (a canned meat product). The correlation between the repetitive chanting and unwanted emails led to the term "spam" used to describe unsolicited bulk emails. Conversely, "ham" refers to legitimate or non-spam emails. The term "ham" is believed to have been derived as the opposite of "spam," creating a playful contrast between the two categories.
 
 ## Problem Statement: 
 
-The author set out to invesitgate the impact of machine learning models ability to detect spam. In this paper, emphasis is placed on the detection of spam emails, as opposed to phishing emails. Specifically, this is a classification problem in machine learning - deciding between two classes, spam or ham.
+The author investigated the impact of detecting spam with machine learning models, specifically neural nets. The paper emphasizes detecting spam emails rather than phishing ones and presents a binary classification problem -  spam or ham, rather than a ternary identification problem of all three categories - spam, ham, and phishing. 
 
-In this research paper, several methods of spam detection are investigated. The performance of various machine learning algorithms is evaluated using a publicly available dataset of spam emails. The results of this study provide insight into the effectiveness of different machine learning algorithms for spam detection and highlight the strengths and weaknesses of each approach.
+Naive Bayes models have been traditionally used for the spam detection problem and were used in this case to establish a baseline. From there, a decision tree model was created, and then the author set out their primary goal of creating and training a neural net from the same data and feature set used on the Naive Bayes and Decision Tree Models. This model was then compared to the previous.
 
-The primary models tested were traditional models, including Naive Bayes and Decision Trees, and a more advanced model using Neural Nets was created. Neural Nets have recently become popular in the field of spam detection due to their ability to learn complex patterns and features from data. The results of this study indicate that Neural Nets outperform traditional models in terms of accuracy and precision, making them a promising approach for spam detection.
+Due to their ability to learn complex patterns and features from data, neural nets have recently become popular in spam detection. The results of this study indicate that neural nets outperform traditional models in terms of accuracy and precision, making them a promising approach for spam detection.
 
 # Background
 
