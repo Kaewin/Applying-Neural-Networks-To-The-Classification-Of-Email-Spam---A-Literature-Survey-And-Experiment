@@ -189,3 +189,16 @@ Mark Hopkins, Erik Reeber. “Spambase.” UCI Machine Learning Repository, 1999
 “The Enron-Spam Datasets.” Accessed June 17, 2023. https://www2.aueb.gr/users/ion/data/enron-spam/.
 
 “Index of /Old/Publiccorpus.” Accessed June 17, 2023. https://spamassassin.apache.org/old/publiccorpus/.
+
+## Images Used:
+
+“Download Email Newsletter Email Marketing Royalty-Free Vector Graphic.” Accessed July 20, 2023. https://pixabay.com/vectors/email-newsletter-email-marketing-3249062/.
+Editor, MailGuard. “What Does SPAM Stand For?” Accessed July 20, 2023. https://www.mailguard.com.au/blog/what-does-spam-stand-for/.
+“Goku Thumbs up Meme Generator - Imgflip.” Accessed July 20, 2023. https://imgflip.com/memegenerator/394701793/Goku-thumbs-up.
+Know Your Meme. “Boar Head Exploding Reaction Image | Boar Head Exploding.” Accessed July 20, 2023. https://knowyourmeme.com/photos/2492561-boar-head-exploding.
+“Monty Python and the Spam Tram (3rd in Swiss at LaserRunner) · NetrunnerDB,” November 26, 2018. https://netrunnerdb.com/en/decklist/e98975ca-eb2d-4779-b149-396ea2d56230/monty-python-and-the-spam-tram-3rd-in-swiss-at-laserrunner-.
+Nguyen, Tam. “What Is a Neural Network? A Computer Scientist Explains.” The Conversation, December 11, 2020. http://theconversation.com/what-is-a-neural-network-a-computer-scientist-explains-151897.
+Rorvig, Mordechai. “Computer Scientists Prove Why Bigger Neural Networks Do Better.” Quanta Magazine, February 10, 2022. https://www.quantamagazine.org/computer-scientists-prove-why-bigger-neural-networks-do-better-20220210/.
+saxena, shruti. “Precision vs Recall.” Medium (blog), May 13, 2018. https://medium.com/@shrutisaxena0617/precision-vs-recall-386cf9f89488.
+Shutterstock. “Diversity Hands Raised Question Marks Stock Photo 178351865.” Accessed July 20, 2023. https://www.shutterstock.com/image-photo/diversity-hands-raised-question-marks-178351865.
+xkcd. “Phishing License.” Accessed July 20, 2023. https://xkcd.com/1694/.
