@@ -10,11 +10,6 @@
 
 # Abstract
 
-
-# Introduction
-
-## Background:
-
 # Introduction
 
 ## Background:
@@ -39,13 +34,27 @@ Naive Bayes models have been traditionally used for the spam detection problem a
 
 Due to their ability to learn complex patterns and features from data, neural nets have recently become popular in spam detection. The results of this study indicate that neural nets outperform traditional models in terms of accuracy and precision, making them a promising approach for spam detection.
 
-# Background
+# Literature Survey
 
-what other people did
+In order to establish a foundation and understand where the current literature is with email spam and neural networks applied to spam, the author conducted a survey of several relevant research papers. 
 
-my approach
+## Heckerman et al. 1998 - A Bayesian Approach to Filtering Junk E-Mail
 
-feature selection
+One of the earlier applications of techniques that would fall within machine learning, namely Naive Bayes, was found in Heckerman et al. (1998). In it, the authors argue for using a machine learning classifier over traditional rule-based techniques and that these filters are mature enough for real-world deployment. They also argue that using machine learning classifiers is a more robust solution to the problem of spam detection, as it is more adaptable to the ever-changing nature of spam.
+
+The authors used a vector space model to turn emails into a workable form, where a vector represents each word in the email. The authors also used a binary representation of the data, where the presence of a word is represented by a 1, and the absence of a word is represented by a 0. 
+
+Two experiments were conducted. Dimensionality reduction was used due to the previous step of vector space representation. The specific techniques used were Zipf's law and mutual information. Zipf's law was used only to include words used thrice. Then, the mutual information between each feature and the class was used to select the most informative text features. Some features were words, and others were hand-crafted features based on the test. Ultimately, they totaled 500 features, 35 phrasal, and 20 non-textual domain-specific features. This resulted in a regime split of words + phrases + domain-specific features.
+
+From here, a naive Bayesian classifier was constructed, and then the results were shown on a ROC graph. The authors found that the naive Bayesian classifier performed well and that adding the domain-specific features improved the results. Notably, including more than just words gave superior results, and they further split their metrics into categories for each. So junk precision, junk recall, legitimate precision, legitimate recall. This is due to the impact of false positives and an effort to bias the results against false positives.
+
+In addition to the above, they also used a cost-sensitive classification and only classified an email as junk if it was 99.9% sure it was junk.
+
+In experiment 2, 1183 emails were used, 972 were spam, and 211 were ham. In this run, they instead opted for a 3-way split, legitimate, pornographic junk, and other junk. As before, feature selection was used, the same 3-way split of features, and the 99% threshold for classification. 
+
+Interestingly, the authors found that the 3-way instead of 2-way split worsened the results. The primary reason was the increase in degrees of freedom of the model, requiring more parameters than the two-class model. This is known as a data-fragmentation problem. 
+
+In the end, they conclude that the naive Bayesian classifier is an excellent solution to the spam detection problem, with an 80% reduction in spam from a live user's inbox, and that adding domain-specific features improves the results. They also conclude that the 2-way split is superior to the 3-way split and that such methods are suitable for real-world deployment.
 
 ## The Difficulty Of Email Datasets
 
