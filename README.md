@@ -209,4 +209,5 @@ Rorvig, Mordechai. “Computer Scientists Prove Why Bigger Neural Networks Do Be
 saxena, shruti. “Precision vs Recall.” Medium (blog), May 13, 2018. https://medium.com/@shrutisaxena0617/precision-vs-recall-386cf9f89488.
 
 Shutterstock. “Diversity Hands Raised Question Marks Stock Photo 178351865.” Accessed July 20, 2023. https://www.shutterstock.com/image-photo/diversity-hands-raised-question-marks-178351865.
+
 xkcd. “Phishing License.” Accessed July 20, 2023. https://xkcd.com/1694/.
