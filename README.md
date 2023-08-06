@@ -60,6 +60,18 @@ Interestingly, the authors found that the 3-way instead of 2-way split worsened 
 
 In the end, they conclude that the naive Bayesian classifier is an excellent solution to the spam detection problem, with an 80% reduction in spam from a live user's inbox, and that adding domain-specific features improves the results. They also conclude that the 2-way split is superior to the 3-way split and that such methods are suitable for real-world deployment.
 
+## Androutsopoulos et al. 2000 - An Experimental Comparison
+
+The authors aimed to build on the findings of the 1998 paper by Sahami et al. regarding spam filtering. They sought to create a model to learn from previously received spam and ham messages. To achieve this, they used a keyword-based filter and compared it to the Bayesian filter used in the previous study.
+
+The authors constructed the Naive Bayesian classifier using manually labeled data from the received emails. They acknowledged Sahami et al. as the pioneers in applying machine learning methods to spam filtering and introduced new techniques such as lemmatization and stop-lists. They also investigated the effect of attribute size and training-corpus size on the model's accuracy.
+
+The authors built their corpus using 1099 emails, including 418 spam and 618 ham messages. They encrypted the emails to maintain privacy while allowing machine learning models to use them. The dataset was made available to the public and named PU1.
+
+To reduce the impact of random variation, the authors implemented 10-fold cross-validation. The dataset was randomly partitioned into ten parts, and each experiment was repeated ten times. The results showed that the NB filter outperformed the manual, label-based filter, even with a small training corpus. However, adding a lemmatizer did not significantly improve the model's accuracy.
+
+In conclusion, the authors confirmed Sahami et al.'s findings and suggested additional safety measures and decision-theoretic cost analysis to make the filters viable.
+
 ## The Difficulty Of Email Datasets
 
 Email by its very nature is a private form of communication. As a result, it is difficult to obtain large datasets of emails that can be used for research purposes. The majority of email datasets are proprietary and cannot be shared publicly due to privacy concerns. Additionally, the process of manually labeling emails as spam or ham is time-consuming and expensive, making it difficult to obtain large datasets of labeled emails.
