@@ -68,6 +68,10 @@ The authors constructed the Naive Bayesian classifier using manually labeled dat
 
 The authors built their corpus using 1099 emails, including 418 spam and 618 ham messages. They encrypted the emails to maintain privacy while allowing machine learning models to use them. The dataset was made available to the public and named PU1.
 
+![image1](https://github.com/Kaewin/Applying-Neural-Networks-To-The-Classification-Of-Email-Spam---A-Literature-Survey-And-Experiment/blob/main/images/paper_2_1.png)
+
+![image2](https://github.com/Kaewin/Applying-Neural-Networks-To-The-Classification-Of-Email-Spam---A-Literature-Survey-And-Experiment/blob/main/images/paper_2_2.png)
+
 To reduce the impact of random variation, the authors implemented 10-fold cross-validation. The dataset was randomly partitioned into ten parts, and each experiment was repeated ten times. The results showed that the NB filter outperformed the manual, label-based filter, even with a small training corpus. However, adding a lemmatizer did not significantly improve the model's accuracy.
 
 In conclusion, the authors confirmed Sahami et al.'s findings and suggested additional safety measures and decision-theoretic cost analysis to make the filters viable.
